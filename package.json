@@ -1,0 +1,28 @@
+{
+  "name": "vciso",
+  "version": "1.0.0",
+  "description": "vciso backend ",
+  "main": "index.js",
+  "engines": {
+    "node": "17.x"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon ./src/app.ts"
+  },
+  "author": "kawtar itoujane",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "ibm-watson": "^5.6.0",
+    "prisma": "^4.3.0",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
